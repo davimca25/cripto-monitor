@@ -4,7 +4,11 @@ import java.math.BigDecimal;
 import java.time.Instant;
 import java.util.Objects;
 
-public record Quote(String coinId, BigDecimal priceUsd, Instant observedAt) {
+public record Quote(
+        String coinId,
+        BigDecimal priceUsd,
+        Instant observedAt
+) {
     public Quote {
         Objects.requireNonNull(coinId, "coinId cannot be null");
         Objects.requireNonNull(priceUsd, "priceUsd cannot be null");
