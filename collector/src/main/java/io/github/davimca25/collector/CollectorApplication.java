@@ -1,9 +1,9 @@
-package com.example.collector;
+package io.github.davimca25.collector;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication(scanBasePackages = "com.example")
+@SpringBootApplication(scanBasePackages = "io.github.davimca25")
 public class CollectorApplication {
 
     public static void main(String[] args) {

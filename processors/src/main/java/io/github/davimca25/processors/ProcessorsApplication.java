@@ -1,9 +1,9 @@
-package com.example.processors;
+package io.github.davimca25.processors;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication(scanBasePackages = "com.example")
+@SpringBootApplication(scanBasePackages = "io.github.davimca25")
 public class ProcessorsApplication {
 
     public static void main(String[] args) {

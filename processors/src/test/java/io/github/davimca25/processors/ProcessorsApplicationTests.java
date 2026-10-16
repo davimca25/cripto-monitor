@@ -1,10 +1,10 @@
-package com.example.collector;
+package io.github.davimca25.processors;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class CollectorApplicationTests {
+class ProcessorsApplicationTests {
 
     @Test
     void contextLoads() {

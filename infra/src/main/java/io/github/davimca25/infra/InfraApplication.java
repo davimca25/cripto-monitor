@@ -1,4 +1,4 @@
-package com.example.infra;
+package io.github.davimca25.infra;
 
 import software.amazon.awscdk.App;
 import software.amazon.awscdk.Stack;

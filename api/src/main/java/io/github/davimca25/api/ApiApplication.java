@@ -1,9 +1,9 @@
-package com.example.api;
+package io.github.davimca25.api;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication(scanBasePackages = "com.example")
+@SpringBootApplication(scanBasePackages = "io.github.davimca25")
 public class ApiApplication {
 
     public static void main(String[] args) {
